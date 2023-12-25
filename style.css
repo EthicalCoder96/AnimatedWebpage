@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins,sans-serif;
+}
+body{
+    background-color: #040303;
+}
+
+header{
+    height: 100vh;
+    background-image: url(pexels-olga-lazacovici-12465474.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+}
+
+nav{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    font-size: 1.3rem;
+    font-weight: 700;
+    transition: 0.3s all ease-out;
+    color: #fff;
+    cursor: pointer;
+}
+
+nav .menus ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    cursor: pointer;
+    color: #fff;
+}
+nav .menus ul li{
+    position: relative;
+}
+nav .menus ul li:after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    display: block;
+    transition: all 0.3s ease;
+    bottom: 1%;
+}
+nav .menus ul li:hover::after {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+nav .buttons button{
+    padding: 6px 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 8px;
+    /* background-color: #ff0000c7; */
+    background-color: #00458f;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s all ease-out;
+}
+
+nav .buttons button:hover{
+    background-color: #0068d8;
+}
+
+section{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.head-1{
+    font-size: 2.5rem;
+}
+
+main{
+    margin-top: 20px;
+    height: 130vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main #Main-Title{
+    margin: 20px auto;
+    color: #fff;
+}
+
+main .card{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050404;
+    border: 1px solid #ffffff19;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+main .img{
+    height: 100%;
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+}
+main .img-1{
+    background-image: url('https://images.pexels.com/photos/5981927/pexels-photo-5981927.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+main .img-2{
+    background-image: url('https://images.pexels.com/photos/4069292/pexels-photo-4069292.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+main .content{
+    width: 60%;
+    margin-left: 10px;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+main .card h1{
+    color: #ffffff;
+    text-align: center;
+}
+main .card p{
+    font-size: 0.9em;
+}

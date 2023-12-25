@@ -1,0 +1,67 @@
+<!-- https://uiinitiative.com/catalog/carousel-slider -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header data-aos="fade-right">
+        <div class="container">
+        <nav>
+            <div class="logo" data-aos="fade-left">
+                <h1>Vibify</h1>
+            </div>
+            <div class="menus" data-aos="fade-down">
+                <ul>
+                    <li>Home</li>
+                    <li>Share</li>
+                    <li>Feelings</li>
+                </ul>
+            </div>
+            <div class="buttons" data-aos="fade-right">
+                <button>Sign-In</button>
+                <button>Sign-Up</button>
+            </div>
+        </nav>
+        <section>
+            <div data-aos="zoom-in">
+                <p class="head-1">Unleash Your Emotions</p>
+                <p class="head-2">A Space to Share, Connect, and Express Yourself Freely.</p>
+            </div>
+        </section>
+        </div>
+    </header>
+
+    <main>
+        <h1 id="Main-Title">Why it is necessary ?</h1>
+        <div class="card" data-aos="zoom-in">
+            <div class="img img-1"></div>
+            <div class="content">
+                <h1>Strength in Adversity</h1>
+                <p>Embrace the challenges, for they are the stepping stones to resilience. This card is a tribute to your unwavering strength in the face of adversity. May it serve as a reminder of the power within you to overcome, adapt, and emerge stronger.</p>
+            </div>
+        </div>
+        <div class="card" data-aos="zoom-in">
+            <div class="img img-2"></div>
+            <div class="content">
+                <h1>Moments of Joy</h1>
+                <p>Life is a collection of moments, big and small, that shape our journey. Celebrate the joy in each step, for these moments weave the tapestry of our lives. This card is a token of appreciation for the beauty found in everyday victories and the extraordinary joy in simple pleasures.</p>
+            </div>
+        </div>
+        
+    </main>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset:150,
+            duration :1500
+        });
+    </script>
+</body>
+</html>
